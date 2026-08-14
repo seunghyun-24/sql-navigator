@@ -1,0 +1,5 @@
+# Analyzer 개발/테스트 의존성
+# 런타임은 브라우저(Pyodide + micropip install "sqlglot")이므로
+# 여기서도 버전을 고정하지 않고 최신 sqlglot과의 호환을 CI에서 검증한다.
+sqlglot
+pytest
